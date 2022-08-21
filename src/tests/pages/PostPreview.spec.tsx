@@ -11,7 +11,7 @@ jest.mock('next-auth/client')
 jest.mock('next/router')
 jest.mock('../../services/prismic')
 
-const post ={
+const     post ={
   slug:'my-new-post', 
   title: 'My New Post', 
   content: '<p>Post content</p>', 
